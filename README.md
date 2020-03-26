@@ -7,10 +7,10 @@ as a non-negative matrix.
 <br>
 <pr>Input: matrix A; rank k.<br>
 Output: Two k-dimensional factors W and H approximating A</pr>
-
+<b>So our Objective function looks like this :</b>
 <br>
 
-<b>So our Objective function looks like this :</b>
+
 <img src="notebook_images/nmf2.png">
 <br>
 <br>
