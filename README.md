@@ -3,7 +3,7 @@ Non-negative Matrix Factorisation (NMF): Family of linear algebra
 algorithms for identifying the latent structure in data represented
 as a non-negative matrix.
 <br>
-<img src="images/nmf.png">
+<img src="notebook_images/nmf.png">
 <br>
 <pr>Input: matrix A; rank k.<br>
 Output: Two k-dimensional factors W and H approximating A</pr>
@@ -11,7 +11,7 @@ Output: Two k-dimensional factors W and H approximating A</pr>
 <br>
 
 <b>So our Objective function looks like this :</b>
-<img src="images/nmf2.png">
+<img src="notebook_images/nmf2.png">
 <br>
 <br>
 <br>
