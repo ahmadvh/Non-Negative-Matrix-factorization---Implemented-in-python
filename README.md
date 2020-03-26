@@ -6,7 +6,7 @@ as a non-negative matrix.
 <img src="notebook_images/nmf.png">
 <br>
 <pr>Input: matrix A; rank k.<br>
-Output: Two k-dimensional factors W and H approximating A</pr>
+Output: Two k-dimensional factors W and H approximating A</pr><br>
 <b>So our Objective function looks like this :</b>
 <br>
 
