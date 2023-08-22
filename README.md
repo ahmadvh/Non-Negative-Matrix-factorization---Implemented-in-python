@@ -1,7 +1,7 @@
 ### NMF Algorithm
 Non-negative Matrix Factorisation (NMF): Family of linear algebra
 algorithms for identifying the latent structure in data represented
-as a non-negative matrix.
+as a non-negative matrix. <a href="https://youtu.be/o4pPTwsd-5M">Link to the youtube tutorial.</a>
 <br>
 <img src="notebook_images/nmf.png">
 <br>
