@@ -20,4 +20,4 @@ I used <b>Multiplicative Update Method</b> <br>introduced by Lee and Seung in 19
 
 ### NNDSVD Method
 As the <b>Multiplicative Update</b> is an iterative method, It is very senstive to initializations of W and H. <br>
-<b>NNDSVD Method</b> is a SVD based initialization, introduced by C. Boutsidis and E. Gallopoulos in 2007 (<a href="http://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/Papers/HPCLAB020107.pdf">This Paper</a>)
+<b>NNDSVD Method</b> is a SVD based initialization, introduced by C. Boutsidis and E. Gallopoulos in 2007 (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320307004359">This Paper</a>)
