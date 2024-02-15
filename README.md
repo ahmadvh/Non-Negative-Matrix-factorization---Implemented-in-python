@@ -16,7 +16,7 @@ Output: Two k-dimensional factors W and H approximating A</pr><br>
 <br>
 <br>
 <pr>There are several approaches inorder to solve this minimization Problem. 
-I used <b>Multiplicative Update Method</b> <br>introduced by Lee and Seung in 1999. (<a href="https://papers.nips.cc/paper/1861-algorithms-for-non-negative-matrix-factorization.pdf">This Paper</a>)</pr>
+I used <b>Multiplicative Update Method</b> <br>introduced by Lee and Seung in 1999. (<a href="https://www.researchgate.net/publication/2480786_Multiplicative_Updates_for_Nonnegative_Quadratic_Programming_in_Support_Vector_Machines">This Paper</a>)</pr>
 
 ### NNDSVD Method
 As the <b>Multiplicative Update</b> is an iterative method, It is very senstive to initializations of W and H. <br>
