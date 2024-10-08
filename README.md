@@ -53,16 +53,12 @@ rank = 3
 # Random initialization example
 W_rand, H_rand = random_initialization(A, rank)
 ```
-Dependencies:
-NumPy: The code relies on NumPy for matrix operations.
-Applications:
-Topic Modeling: Decompose a term-document matrix to identify topics in text.
-Collaborative Filtering: Factorize a user-item matrix for recommendation systems.
-Dimensionality Reduction: Reduce the dimensionality of large datasets while preserving non-negativity.
+## Dependencies
+- **NumPy**: The code relies on NumPy for matrix operations.
+
+## Applications
+- **Topic Modeling**: Decompose a term-document matrix to identify topics in text.
+- **Collaborative Filtering**: Factorize a user-item matrix for recommendation systems.
+- **Dimensionality Reduction**: Reduce the dimensionality of large datasets while preserving non-negativity.
+
 Feel free to explore and modify the code to suit your NMF needs!
-
-# NNDSVD initialization example
-W_nndsvd, H_nndsvd = nndsvd_initialization(A, rank)
-
-# Multiplicative update with NNDSVD initialization
-W_mu, H_mu, norms = multiplicative_update(A, rank, 100, init_mode='nndsvd')
