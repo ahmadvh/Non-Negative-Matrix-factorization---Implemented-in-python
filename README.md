@@ -40,19 +40,7 @@ The <b>Multiplicative Update</b> is an iterative method and can be sensitive to 
 3. **`multiplicative_update(A, k, max_iter, init_mode='random')`**: 
    Performs the NMF algorithm with multiplicative updates and tracks the convergence.
 
-## Usage:
-```python
-import numpy as np
 
-# Input matrix A (non-negative)
-A = np.random.rand(10, 10)
-
-# Rank of the factorization
-rank = 3
-
-# Random initialization example
-W_rand, H_rand = random_initialization(A, rank)
-```
 ## Dependencies
 - **NumPy**: The code relies on NumPy for matrix operations.
 
@@ -62,3 +50,29 @@ W_rand, H_rand = random_initialization(A, rank)
 - **Dimensionality Reduction**: Reduce the dimensionality of large datasets while preserving non-negativity.
 
 Feel free to explore and modify the code to suit your NMF needs!
+
+## Usage
+To get started with the NMF implementation, you can use the following code examples:
+
+### Example 1: Random Initialization
+This example demonstrates how to use the random initialization method for NMF:
+```python
+import numpy as np
+from nmf_module import random_initialization, multiplicative_update
+
+# Generate a non-negative input matrix A
+A = np.random.rand(10, 10)
+
+# Define the rank for factorization
+rank = 3
+
+# Initialize W and H randomly
+W_rand, H_rand = random_initialization(A, rank)
+
+# Perform NMF using Multiplicative Update with random initialization
+W_mu, H_mu, norms = multiplicative_update(A, rank, max_iter=100, init_mode='random')
+
+print("Randomly Initialized W:\n", W_mu)
+print("Randomly Initialized H:\n", H_mu)
+print("Convergence Norms:\n", norms)
+
