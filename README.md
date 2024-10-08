@@ -75,4 +75,28 @@ W_mu, H_mu, norms = multiplicative_update(A, rank, max_iter=100, init_mode='rand
 print("Randomly Initialized W:\n", W_mu)
 print("Randomly Initialized H:\n", H_mu)
 print("Convergence Norms:\n", norms)
+```
+### Example 2: NNDSVD Initialization
+This example demonstrates how to perform NNDSVD initialization and run the multiplicative update for NMF:
+
+```python
+import numpy as np
+from nmf_module import nndsvd_initialization, multiplicative_update
+
+# Generate a non-negative input matrix A
+A = np.random.rand(10, 10)
+
+# Define the rank for factorization
+rank = 3
+
+# Initialize W and H using NNDSVD
+W_nndsvd, H_nndsvd = nndsvd_initialization(A, rank)
+
+# Perform NMF using Multiplicative Update with NNDSVD initialization
+W_mu, H_mu, norms = multiplicative_update(A, rank, max_iter=100, init_mode='nndsvd')
+
+# Display the results
+print("NNDSVD Initialized W:\n", W_mu)
+print("NNDSVD Initialized H:\n", H_mu)
+print("Convergence Norms:\n", norms)
 
